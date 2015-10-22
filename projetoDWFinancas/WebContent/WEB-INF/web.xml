@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>projetoDWFinancas</display-name>
+	<welcome-file-list>
+		<welcome-file>/PaginaDeLogin.jsp</welcome-file>
+		<!-- welcome-file>/PaginaPrincipal.jsp</welcome-file -->
+		<!-- >welcome-file>index.html</welcome-file -->
+	</welcome-file-list>
+	<!-- ***************************************************** -->
+	<!-- ***************************************************** -->
+	<!-- *************** MAPEAMENTO DE SERVLETS ************** -->
+	<!-- ***************************************************** -->
+	<!-- ***************************************************** -->
+	<!-- realizarLogin -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>realizarLogin</servlet-name>
+		<servlet-class>action.RealizarLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>realizarLogin</servlet-name>
+		<url-pattern>/realizarlogin</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- irParaCadastroDeUsuario -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>irParaCadastro</servlet-name>
+		<servlet-class>action.IrParaCadastro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>irParaCadastro</servlet-name>
+		<url-pattern>/irParaCadastro.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- realizarCadastroDeUsuario -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>realizarCadastro</servlet-name>
+		<servlet-class>action.RealizarCadastro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>realizarCadastro</servlet-name>
+		<url-pattern>/cadastrar.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- realizarLogoff -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>realizarLogoff</servlet-name>
+		<servlet-class>action.RealizarLogoff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>realizarLogoff</servlet-name>
+		<url-pattern>/logoff.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- IrParaCadastroDeReceita -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>IrParaCadastroDeReceita</servlet-name>
+		<servlet-class>action.IrParaCadastroDeReceita</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IrParaCadastroDeReceita</servlet-name>
+		<url-pattern>/irParaCadastroDeReceita.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- IrParaCadastroDeDespesa -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>IrParaCadastroDeDespesa</servlet-name>
+		<servlet-class>action.IrParaCadastroDeDespesa</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IrParaCadastroDeDespesa</servlet-name>
+		<url-pattern>/irParaCadastroDeDespesa.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- InserirReceita -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>InserirReceita</servlet-name>
+		<servlet-class>action.InserirReceita</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InserirReceita</servlet-name>
+		<url-pattern>/inserirReceita.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- InserirDespesa -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>InserirDespesa</servlet-name>
+		<servlet-class>action.InserirDespesa</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InserirDespesa</servlet-name>
+		<url-pattern>/inserirDespesa.do</url-pattern>
+	</servlet-mapping>
+	<!-- ***************************************************** -->
+	<!-- AloMundo -->
+	<!-- ***************************************************** -->
+	<servlet>
+		<servlet-name>AloMundo</servlet-name>
+		<servlet-class>action.AloMundo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AloMundo</servlet-name>
+		<url-pattern>/alomundo.do</url-pattern>
+	</servlet-mapping>
+</web-app>

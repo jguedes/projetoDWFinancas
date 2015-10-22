@@ -1,0 +1,180 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: BurlyWood;
+}
+
+.div_Cabecalho {
+	vertical-align: text-top;
+	float: left;
+	width: 100%;
+}
+
+.div_Cabecalho_titulo {
+	float: left;
+	text-align: left;
+}
+
+.div_mensgReceptiva {
+	float: rigth;
+	text-align: right;
+}
+
+.div_linha {
+	float: left;
+	width: 100%;
+}
+
+.div_Funcionalidade {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.div_Conteudo {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.div_Central {
+	/*float: left;*/
+	/*height: 100%;*/
+	width: 100%;
+}
+
+.div_campo_nome {
+	
+}
+
+.div_campo_nome_label {
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+
+.div_campo_nome_text {
+	float: left;
+	text-align: left;
+	width: 60%;
+}
+
+.div_campo_email {
+	/*background-color: gray;*/
+	height: 30px;
+}
+
+.div_campo_email_label {
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+
+.div_campo_email_text {
+	float: left;
+	text-align: left;
+	width: 60%;
+}
+
+.div_campo_senha {
+	/*background-color: gray;*/
+	height: 30px;
+}
+
+.div_campo_senha_label {
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+
+.div_campo_senha_text {
+	float: left;
+	text-align: left;
+	width: 60%;
+}
+
+.div_campo_senha_text input {
+	width: 50%;
+}
+
+.div_campo_botao {
+	/*background-color: gray;*/
+	text-align: right;
+	width: 70.5%;
+	text-align: right;
+}
+
+.div_campo_botao input {
+	font-size: large;
+	width: 20%;
+}
+
+.div_Receita {
+	float: left;
+	background-color: transparent /*LightBlue*/;
+	width: 50%;
+}
+
+.div_Despesa {
+	float: right;
+	background-color: transparent /*Khaki*/;
+	width: 50%;
+}
+
+.div_menu_receita {
+	text-align: right;
+}
+
+.div_menu_despesa {
+	text-align: left;
+}
+
+.td_infGerais {
+	font-size: smaller;
+	text-align: left;
+}
+
+.td_valor {
+	text-align: right;
+}
+
+.div_Resultado {
+	clear: both;
+}
+
+.div_table_despesa {
+	float: right;
+}
+
+.div_table_despesa table {
+	background-color: Khaki;
+}
+
+.div_table_receita {
+	float: left;
+}
+
+.div_table_receita table {
+	background-color: LightBlue;
+}
+
+.p_ErrorField {
+	color: red;
+}
+
+.campo {
+	float: left;
+	width: 100%;
+}
+
+.floatLeft {
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+
+.floatRigth {
+	float: right;
+	text-align: left;
+	width: 50%;
+}
